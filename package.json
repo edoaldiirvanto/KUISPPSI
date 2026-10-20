@@ -1,0 +1,10 @@
+{
+  "name": "kuisppsi-24311148-edoaldiirvanto",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd jri-app && npm install && npm run build",
+    "dev": "cd jri-app && npm run dev",
+    "start": "cd jri-app && npm run preview"
+  }
+}

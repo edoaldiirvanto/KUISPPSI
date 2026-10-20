@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  jri-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jri_revenue_intelligence
+    ports:
+      - "8080:80"
+    restart: always
